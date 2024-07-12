@@ -84,10 +84,10 @@ object demo1 {
       }
 
       for (j <- 0 until res1) {
-        println("enter the item which you want to add : ")
+        println("enter the item which you want to sell : ")
         var res4 = StdIn.readLine().toString
 
-        println("enter the quantity this item which you want to add : ")
+        println("enter the quantity this item which you want to sell : ")
         var res5 = StdIn.readLine().toInt
         sell(res4, res5)
 
